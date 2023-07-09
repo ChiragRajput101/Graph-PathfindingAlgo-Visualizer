@@ -1,0 +1,44 @@
+.node {
+  width: 25px;
+  height: 25px;
+  outline: 0.2px solid rgb(35, 38, 40);
+  display: inline-block;
+  background-color: rgb(245, 250, 249);
+}
+
+.node-finish {
+  background-color: red;
+}
+
+.node-start {
+  background-color: green;
+}
+
+.node-visited {
+  background-color: rgb(232, 111, 115);
+}
+
+.node-wall {
+  background-color: rgb(4, 26, 35);
+}
+
+.node-shortest-path {
+  animation-name: finalPathCells;
+  animation-duration: 1.4s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes finalPathCells {
+  0% {
+    transform: scale(0.6);
+    background-color: rgb(49, 249, 229);
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: rgb(32, 231, 35);
+  }
+}

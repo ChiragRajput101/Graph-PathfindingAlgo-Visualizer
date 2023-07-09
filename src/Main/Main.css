@@ -1,0 +1,46 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.grid {
+    width: fit-content;
+    height: fit-content;
+    margin: 5ch;
+    border: 10px solid black;
+    border-radius: 2ch;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 249, 249);
+    border-radius: 1ch;
+    padding: 1ch;
+    margin: 1ch 1ch;
+}
+
+button:hover{
+    background-color: rgb(241, 123, 123);
+}
+
+nav {
+    position: sticky;
+    background-color: hsl(217, 96%, 11%);
+    border-bottom-left-radius: 1ch;
+    border-bottom-right-radius: 1ch;
+    width: 100%;
+    height: 25%;
+}
+
+.heading {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4ch;
+    font-weight: bold;
+    padding: 0.5ch 0ch;
+}
+
+.customInputs input{
+    margin-left: 1ch;
+}
