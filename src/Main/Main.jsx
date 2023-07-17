@@ -99,12 +99,12 @@ export default class PathfindingVisualizer extends Component {
             PathFinding Visualizer
           </div>
 
-          <div className='customInputs'>
+{/*           <div className='customInputs'>
             <input type="text" placeholder='StartNodeX (0-14)' id='startXId'></input>
             <input type="text" placeholder='StartNodeY (0-39)' id='startYId'></input>
             <input type="text" placeholder='GoalNodeX (0-15)' id='GaolXId'></input>
             <input type="text" placeholder='GoalNodeY (0-39)' id='GoalYId'></input>
-          </div>
+          </div> */}
 
           <button onClick={() => this.startAlgoAnimation()}>
             Start Search
