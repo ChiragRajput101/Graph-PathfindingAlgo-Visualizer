@@ -1,3 +1,6 @@
+
+![pathfinder_vid_AdobeExpress](https://github.com/ChiragRajput101/Graph-PathfindingAlgo-Visualizer/assets/97492118/934eb28d-fa1d-42e7-8301-b9a568f71270)
+
 ## Available Scripts
 
 In the project directory, you can run:
